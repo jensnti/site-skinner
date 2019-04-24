@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:800|Titillium+Web:300,400,600');
+
 body {
-  font-family: "Comic Sans MS" !important;
+	font-family: 'Titillium Web', sans-serif !important;
 }
-
-._23h0-EcaBUorIHC-JZyh6J {
-  background-color: #edffed;
+h2 {
+	font-weight: 600;
 }
-
+/*._23h0-EcaBUorIHC-JZyh6J {
+  background-color: #1c0030;
+}
+*/
 ._3AStxql1mQsrZuUIFP9xSg {
   visibility: hidden;
 }
@@ -13,7 +17,11 @@ body {
 #sidebar-atf-0 {
   display: none;
 }
-
+/*
 ._2vkeRJojnV7cb9pMlPHy7d, .s7gb5k5-3, .s5ln2uw-1 {
-  background-color: #ffeded !important;
+  background-color: #1c0030 !important;
+}
+*/
+#bg {
+    z-index: 100;
 }

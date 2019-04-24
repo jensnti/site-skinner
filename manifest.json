@@ -5,7 +5,7 @@
   "description": "",
   "author":"Kaj Schmidt, NTI-Gymnasiet Umeå, kaj.schmidt@ntig.se",
   "content_scripts": [{
-    "matches": ["https://*.reddit.com/*"],
+    "matches": ["https://jensnti.github.io/site-skinner"],
     "css": ["style.css"],
     "js":["script.js"]
   }],
