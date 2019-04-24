@@ -1,0 +1,15 @@
+{
+  "name": "Site Skinner",
+  "version": "1",
+  "manifest_version": 2,
+  "description": "",
+  "author":"Kaj Schmidt, NTI-Gymnasiet Umeå, kaj.schmidt@ntig.se",
+  "content_scripts": [{
+    "matches": ["https://*.reddit.com/*"],
+    "css": ["style.css"],
+    "js":["script.js"]
+  }],
+  "permissions": [
+    "activeTab"
+  ]
+}
