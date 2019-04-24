@@ -67,10 +67,10 @@ function step(timestamp) {
     ctx.fillRect(0, 0, canvas.width, canvas.height);
     if (!start) start = timestamp;
     let progress = timestamp - start;
-    ctx.filter = "none";
-    ctx.font = '12px sans-serif';
-    ctx.fillStyle = "#fff";
-    ctx.fillText(Math.floor(progress), 4, 20);
+    // ctx.filter = "none";
+    // ctx.font = '12px sans-serif';
+    // ctx.fillStyle = "#fff";
+    // ctx.fillText(Math.floor(progress), 4, 20);
 
     balls.forEach(element => {
         element.draw();
@@ -94,4 +94,6 @@ function random(min,max) {
 let body = document.getElementById("2x-container");
 body.appendChild(canvas);
 
-console.log("hej");
+window.onscroll = function() {
+    canvas.setAttribute("style", "top: " + window.pageYOffset + "px");
+}
