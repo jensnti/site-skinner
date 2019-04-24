@@ -90,6 +90,8 @@ function random(min,max) {
     return Math.floor(Math.random()*(max-min)) + min;
 }
 
-let body = document.getElementsByTagName('body')[0];
-
+//let body = document.getElementsByTagName('body')[0];
+let body = document.getElementById("2x-container");
 body.appendChild(canvas);
+
+console.log("hej");

@@ -23,5 +23,12 @@ h2 {
 }
 */
 #bg {
-    z-index: 100;
+	z-index: -1;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+body {
+	background-color: #1c0030;
 }
